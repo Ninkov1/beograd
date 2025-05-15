@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <title>Beograd - Srce Balkana</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background-color: #fafafa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/2/2c/Belgrade_Skyline_Panorama.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-shadow: 2px 2px 5px #000;
+        }
+
+        header h1 {
+            font-size: 4em;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.5em;
+        }
+
+        nav {
+            background-color: #1e1e1e;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #f9d342;
+        }
+
+        main {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        section {
+            margin-bottom: 60px;
+        }
+
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #f9d342;
+            padding-bottom: 5px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 15px;
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        footer {
+            background-color: #1e1e1e;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+        @media (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Beograd</h1>
+        <p>Grad sa dušom, istorijom i budućnošću</p>
+    </header>
+
+    <nav>
+        <a href="#istorija">Istorija</a>
+        <a href="#znamenitosti">Znamenitosti</a>
+        <a href="#kultura">Kultura</a>
+        <a href="#nocni-zivot">Noćni život</a>
+        <a href="#sport">Sport</a>
+        <a href="#obrazovanje">Obrazovanje</a>
+        <a href="#saobracaj">Saobraćaj</a>
+        <a href="#galerija">Galerija</a>
+        <a href="#zanimljivosti">Zanimljivosti</a>
+    </nav>
+
+    <main>
+        <section id="istorija">
+            <h2>Istorija Beograda</h2>
+            <p>Beograd je jedan od najstarijih gradova u Evropi, sa tragovima naselja još iz 5. veka pre nove ere. Naseljen još u doba Vinčanske kulture, kasnije postaje važna tačka Rimskog carstva pod nazivom Singidunum. Kroz vekove, grad je menjao vladare – bio je pod Vizantijom, Osmanlijama i Austro-Ugarima. Tokom 20. veka, Beograd je postao glavni grad Kraljevine Jugoslavije, zatim SFRJ, i danas je glavni grad Republike Srbije.</p>
+        </section>
+
+        <section id="znamenitosti">
+            <h2>Znamenitosti</h2>
+            <ul>
+                <li><strong>Kalemegdan:</strong> Tvrđava i park sa pogledom na ušće Save u Dunav.</li>
+                <li><strong>Knez Mihailova:</strong> Najpoznatija pešačka ulica u srcu grada.</li>
+                <li><strong>Hram Svetog Save:</strong> Jedan od najvećih pravoslavnih hramova na svetu.</li>
+                <li><strong>Skadarlija:</strong> Boemska četvrt sa starogradskim duhom.</li>
+                <li><strong>Ada Ciganlija:</strong> Omiljeno izletište i rekreativna zona Beograđana.</li>
+                <li><strong>Muzej Nikole Tesle:</strong> Posvećen životu i radu velikog naučnika.</li>
+            </ul>
+        </section>
+
+        <section id="kultura">
+            <h2>Kultura i umetnost</h2>
+            <p>Beograd je kulturni centar regiona. U njemu se nalaze Narodno pozorište, Narodni muzej, Jugoslovensko dramsko pozorište, Kulturni centar Beograda i mnogi drugi značajni kulturni objekti. Održavaju se brojni festivali poput BITEF-a, FEST-a, BELEFA i drugih.</p>
+        </section>
+
+        <section id="nocni-zivot">
+            <h2>Noćni život</h2>
+            <p>Beograd je poznat po živahnom noćnom životu. Klubovi, splavovi i kafane rade do ranih jutarnjih sati. Posebno su popularni splavovi na Savi i Dunavu, kao i klubovi u Savamali. Muzika varira od elektronske i tehno, do narodne i rok scene.</p>
+        </section>
+
+        <section id="sport">
+            <h2>Sport i rekreacija</h2>
+            <p>U Beogradu se nalaze najveći sportski klubovi Srbije – Crvena Zvezda i Partizan. Grad ima razvijenu sportsku infrastrukturu: stadioni, hale, bazeni, trim staze i biciklističke staze. Ada Ciganlija je omiljeno mesto za rekreaciju.</p>
+        </section>
+
+        <section id="obrazovanje">
+            <h2>Obrazovanje</h2>
+            <p>Beograd je obrazovni centar sa više univerziteta i visokoškolskih ustanova. Najpoznatiji je Univerzitet u Beogradu, osnovan 1808. godine. Grad ima brojne škole, biblioteke i institute. U njemu se nalaze i međunarodne škole i fakulteti.</p>
+        </section>
+
+        <section id="saobracaj">
+            <h2>Saobraćaj i infrastruktura</h2>
+            <p>Beograd je saobraćajno čvorište Srbije. Povezan je auto-putevima, železnicom i ima međunarodni aerodrom "Nikola Tesla". Grad ima razvijen javni prevoz: autobuse, trolejbuse, tramvaje i minibus linije. Gradi se metro sistem.</p>
+        </section>
+
+        <section id="galerija">
+            <h2>Galerija</h2>
+            <div class="gallery-grid">
+                <div>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Kalemegdan_vidikovac.jpg" alt="Pogled sa Kalemegdana">
+                    <p style="text-align: center;">Kalemegdan</p>
+                </div>
+                <div>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/40/Temple_of_Saint_Sava_Belgrade_Serbia.jpg" alt="Hram Svetog Save">
+                    <p style="text-align: center;">Hram Svetog Save</p>
+                </div>
+                <div>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Skadarlija_-_Belgrade_-_Serbia.jpg" alt="Skadarlija">
+                    <p style="text-align: center;">Skadarlija</p>
+                </div>
+                <div>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Ada_Ciganlija_-_beach.jpg" alt="Ada Ciganlija">
+                    <p style="text-align: center;">Ada Ciganlija</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="zanimljivosti">
+            <h2>Zanimljivosti o Beogradu</h2>
+            <ul>
+                <li>Beograd znači "beli grad".</li>
+                <li>Preko 20 puta je uništavan i ponovo građen.</li>
+                <li>Jedan je od najstarijih stalno naseljenih gradova u Evropi.</li>
+                <li>Kalemegdan se nalazi na mestu nekadašnjeg rimskog vojnog logora.</li>
+                <li>U Beogradu se nalazi više od 70 muzeja.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 | Beograd - Grad otvorenog srca</p>
+    </footer>
+
+</body>
+</html>
